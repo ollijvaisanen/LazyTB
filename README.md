@@ -1,5 +1,7 @@
 # LazyTB_testing
 
+IN PROGRESS: If you somehow end up here, the code will appear tomorrow.
+
 LazyTB is publicly available MATLAB code for computing cosmological observables in spherically symmetric spacetimes with an arbitrary number of ideal fluids. The code comprisses of a solver for the Einstein field equations and the fluid equations, routines for specifying the initial conditions and diagnostics tools for the numerical error. In addition, the code includes a solver for observables such as angular diameter distances along light rays for an observer at an arbitrary location of the spacetime.
 
 A python version of the code is under development and a link to the repository will be added here.
