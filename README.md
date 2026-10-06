@@ -6,7 +6,11 @@ LazyTB is publicly available MATLAB code for computing cosmological observables 
 
 A python version of the code is under development and a link to the repository will be added here.
 
-More information on the details of the code can be found in arXiv:XXXX.XXXX. Please cite this article when using our code.
+More information on the details of the code can be found in. 
+
+[1] LazyTB: Extended LTB-solutions with Multiple Interacting Fluids. Kimmo Kainulainen, Enrico Schiappacasse, Linda Tenhu, Olli Väisänen, XX.10.2026, arXiv: XXXX.XXXXX.
+
+Please cite this article when using our code.
 
 # Quick start
 Install Matlab 2021a or newer, (the code was built and tested on Matlab2024a). Download the contents in /LazyTB to your local folder or add their location to your MATLAB path.
