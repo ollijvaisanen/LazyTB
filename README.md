@@ -8,7 +8,7 @@ A python version of the code is under development and a link to the repository w
 
 More information on the details of the code can be found in. 
 
-[1] LazyTB: Extended LTB-solutions with Multiple Interacting Fluids. Kimmo Kainulainen, Enrico Schiappacasse, Linda Tenhu, Olli Väisänen, XX.10.2026, arXiv: XXXX.XXXXX.
+[1] LazyTB: Extended LTB-solutions with Multiple Interacting Fluids. Kimmo Kainulainen, Enrico Schiappacasse, Linda Tenhu, Olli Väisänen, 7.10.2026, arXiv: XXXX.XXXXX.
 
 Please cite this article when using our code.
 
