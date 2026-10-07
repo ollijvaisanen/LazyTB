@@ -271,12 +271,7 @@ function [c,f,s] = EvolutionEquations(r,y,u,DuDr,input,extra)
     
 
     % See Eq. (A.6) in [1].
-    %nu = (1/3)*gcvV2.*( - vpV.^2.*(br - 3*cs2V*b) + 2*vpV*X/(r*chit) + vprV/chir );
-    %nu = (1/3)*gcvV2.*( vpV.^2.*(br - 3*cs2V*b) + 2*vpV*X/(r*chit) + vprV/chir );
-
-    %nu2 = 1 - b + (1/3)*gcvV2.*( vpV.^2.*(br - 3*cs2V*b) - 2*vpV*X/(r*chit) - vprV/chir );
-    nu2 = -db + (1/3)*gcvV2.*( vpV.^2.*(br - 3*cs2V*b) - 2*vpV*X/(r*chit) - vprV/chir );
-    %nu2 = 1 - gcvV2.*( b - vpV.^2.*br/3 + 2*vpV*X/(3*r*chit) + vprV/(3*chir)  );
+    nu = -db + (1/3)*gcvV2.*( vpV.^2.*(br - 3*cs2V*b) - 2*vpV*X/(r*chit) - vprV/chir );
 
     % The brackets in the v:derivative of Eq. (A.3) in [1].
     delA = - br + 3*cs2V*b + 2*cs2V.*vpV*X/(r*chit) - (1-cs2V).*vprV.*gpV2/chir;
@@ -306,9 +301,7 @@ function [c,f,s] = EvolutionEquations(r,y,u,DuDr,input,extra)
     velS = vpV.*(gcvV2./gpV2).*delA - (B + velInt)./(1+wV)./gpV2;
 
     % Density contrast RHS
-    %RhoS = 3*( wbgV - wV - (1+wV).*(db + nu) ) - vpV.*LDeVr/chir + vpV.*B + RhoInt;
-
-    RhoS = 3*( wbgV - wV + (1+wV).*nu2 ) - vpV.*LDeVr/chir + vpV.*B + RhoInt;
+    RhoS = 3*( wbgV - wV + (1+wV).*nu ) - vpV.*LDeVr/chir + vpV.*B + RhoInt;
 
 
 
