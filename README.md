@@ -4,9 +4,9 @@ LazyTB is publicly available MATLAB code for computing cosmological observables 
 
 A python version of the code is under development and a link to the repository will be added here.
 
-More information on the details of the code can be found in. 
+More information on the details of the code can be found in 
 
-[1] LazyTB: Extended LTB-solutions with Multiple Interacting Fluids. Kimmo Kainulainen, Enrico Schiappacasse, Linda Tenhu, Olli Väisänen, 7.10.2026, arXiv: XXXX.XXXXX.
+[1] LazyTB: Extended LTB-solutions with Multiple Interacting Fluids. Kimmo Kainulainen, Enrico Schiappacasse, Linda Tenhu, Olli Väisänen, 7.10.2026, arXiv:2610.09625.
 
 Please cite this article when using our code.
 
@@ -162,10 +162,10 @@ Scalar. The observer radius and angle.
 
 
 ##### da, dr
-The steps used in computing finite difference derivatives of the metric inside the solver. Note that the optical equations themselves are solved with an adaptive solver and the timestep used here is not directly related to it.
+Scalars. The steps used in computing finite difference derivatives of the metric inside the solver. Note that the optical equations themselves are solved with an adaptive solver and the timestep used here is not directly related to it.
 
 ##### angles
-Angles of the outgoing light rays from the observer. This can be an array for solving a set of rays simultaneously. Zero angle is directed towards the origin.
+(1,Nrays)-array. Angles of the outgoing light rays from the observer. This can be an array for solving a set of rays simultaneously. Zero angle is directed towards the origin.
 
 ##### ode_settings
 ODE settings passed on to ode45 in the standard form.
