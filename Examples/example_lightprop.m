@@ -4,7 +4,7 @@
 %
 %     [1]: LazyTB: Extended LTB-solutions with Multiple Interacting Fluids.
 %                  Kimmo Kainulainen, Enrico Schiappacasse, Linda Tenhu, Olli Väisänen,
-%                  XX.10.2026, arXiv: XXXX.XXXXX.
+%                  7.10.2026, arXiv: 2610.09625.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
